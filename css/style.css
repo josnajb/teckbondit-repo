@@ -1,0 +1,102 @@
+/* ======================common style======================== */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    padding: 20px;
+    background: #fefaff;
+    width: 1160px;
+
+}
+/* ==============menubar=================== */
+.topbar{
+    display: flex;
+}
+.head-title{
+    display: flex;
+    margin-right: 500px; 
+    width: 500px; 
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    min-height: 38px;
+    width: 1000px;
+}
+.main-menu{
+    align-items: right;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+ text-decoration: none;
+ display: block; 
+ padding: 10px 20px; 
+ color: black;
+}
+.menu li a:hover{
+    color: tomato;
+}
+.menu li ul{
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    left: -9999px;
+}
+.menu li ul li{
+    float: none;
+    width: 200px;
+}
+.menu li:hover ul{
+    left: 0;
+    left: 750px;
+}
+.top-banner{
+    background-image: url(../images/unsplash.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; 
+    border-top: 5px solid#a39a8e;
+}
+
+.josna{
+    width: 300px;
+}
+.josna img{
+    width: 100%;
+    border: 5px solid rgb(197, 81, 81);
+}
+.content{
+    align-items: center;
+}
+.content h1{
+  font-size: 36px;
+  color: blue;    
+}
+/*================ course detailes =============*/
+.course{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    background: cornflowerblue;
+    margin-top: 10px;
+}
+.course img{
+    width: 100%;
+}
+.Courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
